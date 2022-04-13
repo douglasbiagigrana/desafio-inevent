@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2314142FD01307C49683DD6E /* Pods_desafio_inevent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72127CCA51520E28DD59780F /* Pods_desafio_inevent.framework */; };
+		A52436112804990C005F6AD4 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52436102804990C005F6AD4 /* BookModel.swift */; };
+		A524361328049917005F6AD4 /* BookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A524361228049917005F6AD4 /* BookResponse.swift */; };
+		A5243615280499E5005F6AD4 /* BookNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5243614280499E5005F6AD4 /* BookNetworking.swift */; };
+		A524361828049DA6005F6AD4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A524361728049DA6005F6AD4 /* HomeView.swift */; };
+		A524361D28049E68005F6AD4 /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A524361C28049E68005F6AD4 /* PinView.swift */; };
+		A532EEC92805EA2E00AA6EE6 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A532EEC82805EA2E00AA6EE6 /* HomeTableViewCell.swift */; };
 		A5A6F04A28047E2700271AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A6F04928047E2700271AEB /* AppDelegate.swift */; };
 		A5A6F04C28047E2700271AEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A6F04B28047E2700271AEB /* SceneDelegate.swift */; };
-		A5A6F04E28047E2700271AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A6F04D28047E2700271AEB /* ViewController.swift */; };
-		A5A6F05128047E2700271AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A6F04F28047E2700271AEB /* Main.storyboard */; };
-		A5A6F05328047E2900271AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A6F05228047E2900271AEB /* Assets.xcassets */; };
+		A5A6F04E28047E2700271AEB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A6F04D28047E2700271AEB /* HomeViewController.swift */; };
 		A5A6F05628047E2900271AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A6F05428047E2900271AEB /* LaunchScreen.storyboard */; };
+		A5CCA3442806E521002B2D80 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCA3432806E521002B2D80 /* BookView.swift */; };
+		A5CCA3462806E535002B2D80 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCA3452806E535002B2D80 /* BookViewController.swift */; };
+		A5CCA34C28073DF0002B2D80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BEEC582804947E0005182D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D028BE5ACC05D6E066A5BF8 /* Pods-desafio-inevent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-inevent.debug.xcconfig"; path = "Target Support Files/Pods-desafio-inevent/Pods-desafio-inevent.debug.xcconfig"; sourceTree = "<group>"; };
+		72127CCA51520E28DD59780F /* Pods_desafio_inevent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafio_inevent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52436102804990C005F6AD4 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		A524361228049917005F6AD4 /* BookResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResponse.swift; sourceTree = "<group>"; };
+		A5243614280499E5005F6AD4 /* BookNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNetworking.swift; sourceTree = "<group>"; };
+		A524361728049DA6005F6AD4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A524361C28049E68005F6AD4 /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		A532EEC82805EA2E00AA6EE6 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		A5A6F04628047E2700271AEB /* desafio-inevent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "desafio-inevent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A6F04928047E2700271AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A6F04B28047E2700271AEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5A6F04D28047E2700271AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A5A6F05028047E2700271AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5A6F05228047E2900271AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5A6F04D28047E2700271AEB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A5A6F05528047E2900271AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A5A6F05728047E2900271AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BEEC572804947E0005182D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/douglas/Desktop/Development/desafio-inevent/desafio-inevent/Info.plist"; sourceTree = "<absolute>"; };
+		A5BEEC582804947E0005182D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "/Users/douglas/Desktop/Development/desafio-inevent/desafio-inevent/Assets.xcassets"; sourceTree = "<absolute>"; };
+		A5CCA3432806E521002B2D80 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		A5CCA3452806E535002B2D80 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		A62D60FC85ABFB9FF52B02BA /* Pods-desafio-inevent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-inevent.release.xcconfig"; path = "Target Support Files/Pods-desafio-inevent/Pods-desafio-inevent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2314142FD01307C49683DD6E /* Pods_desafio_inevent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01EC933F8188DAC10AA59627 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D028BE5ACC05D6E066A5BF8 /* Pods-desafio-inevent.debug.xcconfig */,
+				A62D60FC85ABFB9FF52B02BA /* Pods-desafio-inevent.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4DDE4B03AED6DC112C84EB2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72127CCA51520E28DD59780F /* Pods_desafio_inevent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A524361628049D7E005F6AD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A524361C28049E68005F6AD4 /* PinView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A5A6F03D28047E2700271AEB = {
 			isa = PBXGroup;
 			children = (
 				A5A6F04828047E2700271AEB /* desafio-inevent */,
 				A5A6F04728047E2700271AEB /* Products */,
+				01EC933F8188DAC10AA59627 /* Pods */,
+				4DDE4B03AED6DC112C84EB2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +102,86 @@
 		A5A6F04828047E2700271AEB /* desafio-inevent */ = {
 			isa = PBXGroup;
 			children = (
-				A5A6F04928047E2700271AEB /* AppDelegate.swift */,
-				A5A6F04B28047E2700271AEB /* SceneDelegate.swift */,
-				A5A6F04D28047E2700271AEB /* ViewController.swift */,
-				A5A6F04F28047E2700271AEB /* Main.storyboard */,
-				A5A6F05228047E2900271AEB /* Assets.xcassets */,
-				A5A6F05428047E2900271AEB /* LaunchScreen.storyboard */,
-				A5A6F05728047E2900271AEB /* Info.plist */,
+				A5A6F05D28047E3400271AEB /* Model */,
+				A5A6F05E28047E3900271AEB /* View */,
+				A5A6F05F28047E3F00271AEB /* Controller */,
+				A5A6F06228048D9600271AEB /* Service */,
+				A524361628049D7E005F6AD4 /* Extensions */,
+				A5A6F06028047E7000271AEB /* AppDelegate */,
+				A5BEEC582804947E0005182D /* Assets.xcassets */,
+				A5BEEC572804947E0005182D /* Info.plist */,
 			);
 			path = "desafio-inevent";
+			sourceTree = "<group>";
+		};
+		A5A6F05D28047E3400271AEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A52436102804990C005F6AD4 /* BookModel.swift */,
+				A524361228049917005F6AD4 /* BookResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5A6F05E28047E3900271AEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5A6F06128048D8400271AEB /* LaunchScreen */,
+				A5BEEC56280490DE0005182D /* Home */,
+				A5CCA3422806E4FE002B2D80 /* Book */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5A6F05F28047E3F00271AEB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5A6F04D28047E2700271AEB /* HomeViewController.swift */,
+				A5CCA3452806E535002B2D80 /* BookViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A5A6F06028047E7000271AEB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A5A6F04928047E2700271AEB /* AppDelegate.swift */,
+				A5A6F04B28047E2700271AEB /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A5A6F06128048D8400271AEB /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A5A6F05428047E2900271AEB /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		A5A6F06228048D9600271AEB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A5243614280499E5005F6AD4 /* BookNetworking.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A5BEEC56280490DE0005182D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A524361728049DA6005F6AD4 /* HomeView.swift */,
+				A532EEC82805EA2E00AA6EE6 /* HomeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A5CCA3422806E4FE002B2D80 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				A5CCA3432806E521002B2D80 /* BookView.swift */,
+			);
+			path = Book;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5A6F05A28047E2900271AEB /* Build configuration list for PBXNativeTarget "desafio-inevent" */;
 			buildPhases = (
+				81D847E61054700E9967CBAC /* [CP] Check Pods Manifest.lock */,
 				A5A6F04228047E2700271AEB /* Sources */,
 				A5A6F04328047E2700271AEB /* Frameworks */,
 				A5A6F04428047E2700271AEB /* Resources */,
+				F1D5A6F7500593C502580E4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +244,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CCA34C28073DF0002B2D80 /* Assets.xcassets in Resources */,
 				A5A6F05628047E2900271AEB /* LaunchScreen.storyboard in Resources */,
-				A5A6F05328047E2900271AEB /* Assets.xcassets in Resources */,
-				A5A6F05128047E2700271AEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81D847E61054700E9967CBAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-desafio-inevent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D5A6F7500593C502580E4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-desafio-inevent/Pods-desafio-inevent-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-desafio-inevent/Pods-desafio-inevent-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-desafio-inevent/Pods-desafio-inevent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5A6F04228047E2700271AEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A6F04E28047E2700271AEB /* ViewController.swift in Sources */,
+				A5A6F04E28047E2700271AEB /* HomeViewController.swift in Sources */,
+				A524361828049DA6005F6AD4 /* HomeView.swift in Sources */,
+				A524361328049917005F6AD4 /* BookResponse.swift in Sources */,
+				A5CCA3462806E535002B2D80 /* BookViewController.swift in Sources */,
 				A5A6F04A28047E2700271AEB /* AppDelegate.swift in Sources */,
+				A524361D28049E68005F6AD4 /* PinView.swift in Sources */,
+				A52436112804990C005F6AD4 /* BookModel.swift in Sources */,
+				A532EEC92805EA2E00AA6EE6 /* HomeTableViewCell.swift in Sources */,
+				A5243615280499E5005F6AD4 /* BookNetworking.swift in Sources */,
 				A5A6F04C28047E2700271AEB /* SceneDelegate.swift in Sources */,
+				A5CCA3442806E521002B2D80 /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A5A6F04F28047E2700271AEB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A6F05028047E2700271AEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A5A6F05428047E2900271AEB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +442,7 @@
 		};
 		A5A6F05B28047E2900271AEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D028BE5ACC05D6E066A5BF8 /* Pods-desafio-inevent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +453,7 @@
 				INFOPLIST_FILE = "desafio-inevent/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,12 +465,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A5A6F05C28047E2900271AEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62D60FC85ABFB9FF52B02BA /* Pods-desafio-inevent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +482,7 @@
 				INFOPLIST_FILE = "desafio-inevent/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +494,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
